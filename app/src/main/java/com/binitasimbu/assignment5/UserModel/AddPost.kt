@@ -3,7 +3,7 @@ package com.binitasimbu.assignment5.UserModel
 import android.os.Parcel
 import android.os.Parcelable
 
-class AddPost (
+class AddPost (val name:String?=null,
     val postimg:String?=null,
     val profileimg:String?=null
 ):Parcelable {

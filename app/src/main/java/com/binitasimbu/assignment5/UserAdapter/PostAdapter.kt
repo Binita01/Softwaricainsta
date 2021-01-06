@@ -39,7 +39,7 @@ class PostAdapter(
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): UserViewHolder {
         val view =  LayoutInflater.from(parent.context) ///actor page lai yaha leger aako
-                .inflate(R.layout.post_activity,  parent, false)
+                .inflate(R.layout.activity_add__post_,  parent, false)
         return  UserViewHolder(view)    }
 
     override fun onBindViewHolder(holder: UserViewHolder, position: Int) {
